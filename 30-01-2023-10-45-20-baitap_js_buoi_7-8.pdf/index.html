@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">Array</div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="">Nhập số vào mảng </label>
+                            <input id="number" type="number" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="">Nhập vào vị trí thứ nhất muốn đổi chỗ: </label>
+                            <input id="index1" type="number" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="">Nhập vào vị trí thứ hai muốn đổi chỗ: </label>
+                            <input id="index2" type="number" class="form-control" />
+                        </div>
+                        <button id="submit" class="btn btn-danger" onclick="Nhap_array()">Submit</button>
+                        <button id="btnTongVaDemChan" class="btn btn-danger" onclick="tinhTongDuong()">Tính tổng và đếm
+                            số dương</button>
+                        <button id="btnMin" class="btn btn-danger" onclick="findMin()">Tìm số nhỏ nhất</button>
+                        <button id="btnMinPositive" class="btn btn-danger" onclick="findMinPosivite()">Tìm số dương nhỏ
+                            nhất</button>
+                        <button id="btnEvenFinal" class="btn btn-danger" onclick="findEvenFinal()">Tìm số chẵn cuối
+                            cùng</button>
+                        <button id="btnPosition" class="btn btn-danger" onclick="exchangeValue()">Đổi chỗ giá trị trong
+                            mảng</button>
+                        <button id="btnSortUp" class="btn btn-danger" onclick="sortUp()">Sắp xếp mảng
+                            tăng</button>
+                        <button id="btnFirstPrime" class="btn btn-danger" onclick="firstPrime()">Tìm số nguyên tố đầu
+                            tiên</button>
+                        <button id="btnPrimeReal" class="btn btn-danger" onclick="PrimeReal()">Tìm số nguyên trong
+                            mảng số thực</button>
+                        <button id="btnCompare" class="btn btn-danger" onclick="Compare()">So sánh số lượng số
+                            âm số dương</button>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <div id="footerNhap"></div>
+                        <div id="footerTongDuong"></div>
+                        <div id="footerDemDuong"></div>
+                        <div id="footerMin"></div>
+                        <div id="footerMinPositive"></div>
+                        <div id="footerEvenFinal"></div>
+                        <div id="footerPosition"></div>
+                        <div id="footerSortUp"></div>
+                        <div id="footerFirstPrime"></div>
+                        <div id="footerPrimeReal"></div>
+                        <div id="footerCompare"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
